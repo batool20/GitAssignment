@@ -1,7 +1,12 @@
 import java.util.Arrays;
 public class MainClass {
     public static void main(String[] args) {
+
+        MergeSort3way Merge2= new MergeSort3way();
+	
+
         MergeSort3way Merge = new MergeSort3way();
+
         int[] numbers = {4, 2, 7, 1, 9, 5, 3, 8, 6};
 
         System.out.println("Array before sorting: " + Arrays.toString(numbers));  
@@ -21,6 +26,9 @@ public class MainClass {
             }
             arr[j + 1] = key;
         }
+
+
+
     }
     
 }
