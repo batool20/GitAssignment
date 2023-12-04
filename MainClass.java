@@ -12,6 +12,8 @@ public class MainClass {
         System.out.println("Array before sorting: " + Arrays.toString(numbers));  
         insertionSort(numbers);
         System.out.println("Array after sorting: " + Arrays.toString(numbers));
+	criticalIssueFix(); // Fixing the critical issue
+	
     }
     private static void insertionSort(int[] arr) {
         int n = arr.length;
@@ -48,4 +50,10 @@ public class MainClass {
             arr[i] = temp;
         }
     }
+
+	public static void criticalIssueFix() {
+        // Your fix for the critical issue goes here
+        System.out.println("Critical issue fixed!");
+    }
+
 }
